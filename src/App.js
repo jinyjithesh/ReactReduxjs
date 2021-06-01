@@ -1,58 +1,48 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
 
-function App() {
+import React, { Fragment,useState,Components  } from 'react';
+import {BrowserRouter, Route, Router} from 'react-router-dom'
+import ContainerChart from './Components/Layout/ContainerChart';
+import Header from './Components/Layout/Header';
+import MainSection from './Components/Layout/MainSection';
+import All from './Components/Pages/All';
+import Classtime from './Components/Pages/Classtime';
+import Freetime from './Components/Pages/Freetime';
+import Studytime from './Components/Pages/Studytime';
+import Modal from './Components/UI/Modal';
+
+function App(props) {
+  const [modalIsShown,setModalIsShown]=useState(false);
+  const shownModalHandler=()=>{
+    setModalIsShown(true);
+  };
+  const hideModalHandler=()=>{
+    setModalIsShown(false);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
-    </div>
+  <Fragment>
+    <Header/>
+    <MainSection onshownModal={shownModalHandler} />
+    { modalIsShown && <Modal />}
+    
+    
+        
+    
+      
+    {/* <BrowserRouter>
+    <div>
+    <ContainerChart />
+    <Router path='/' component={All}/>
+    <Router path='/classtime' component={Classtime}/>
+    <Router path='/studytime' component={Freetime}/>
+    <Router path='/freetime' component={Studytime}/> 
+        </div>
+    </BrowserRouter> */}
+    
+  </Fragment>
+ 
   );
 }
 
 export default App;
+//www.producturl.com/=>component A
+//www.producturl.com/summary?=>component B

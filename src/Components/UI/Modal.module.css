@@ -1,0 +1,19 @@
+.modal {
+    position: absolute;
+    width: 320px;
+    height: 418px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px -7px 15px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 15px 15px;
+    position: absolute;
+   
+    padding: 1rem;
+    z-index:10;
+    animation: slide-down 300ms ease-out forwards;
+    background: #FFFFFF;
+box-shadow: 0px -7px 15px -3px rgba(0, 0, 0, 0.25);
+top: 25vh;
+left:20%;
+  }

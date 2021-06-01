@@ -1,0 +1,63 @@
+.container{
+    position: absolute;
+width: 1197px;
+height: 69.35px;
+left: 121.65px;
+top: 195.82px;
+
+background: #FFFFFF;
+}
+.dropdown{
+    top: 0;
+    left: 10px;
+    padding: 0;  
+}
+.button{
+    color: #054DB9;    
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 0.75rem 3rem;
+    
+    background-color: #FFFFFF;
+}
+
+.b{height: 31px;
+    width: 150px;
+    left: 153.14599609375px;
+    top: 215px;
+    border-radius: 22px;
+    padding: 4px, 12px, 4px, 12px;
+    display: flexbox;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 12px;
+    
+    position: absolute;
+    left: 10.64%;
+    right: 85.13%;
+    top: 21%;
+    bottom: 75.98%;
+    
+    border: 1.5px solid #054DB9;
+    box-sizing: border-box;
+    border-radius: 22px;}
+    .modal {
+        position: absolute;
+        width: 320px;
+        height: 418px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+        box-shadow: 0px -7px 15px -3px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 0px 15px 15px;
+        position: absolute;
+       
+        padding: 1rem;
+        z-index:10;
+        animation: slide-down 300ms ease-out forwards;
+        background: #FFFFFF;
+    box-shadow: 0px -7px 15px -3px rgba(0, 0, 0, 0.25);
+    top: 25vh;
+    left:20%;
+      }

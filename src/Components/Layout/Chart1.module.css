@@ -1,0 +1,30 @@
+.box{
+    position: absolute;
+left: 66px;
+top: 38.66px;
+bottom: 59.5px;
+right: 873px;
+
+text-align: center;
+align-items: center;
+
+}
+.box1{
+    height: 177.15631103515625px;
+width: 177.15631103515625px;
+left: 226.98806762695312px;
+top: 370.15234375px;
+border-radius: 27px;
+
+
+}
+.h{
+    font-family: Segoe UI;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+}

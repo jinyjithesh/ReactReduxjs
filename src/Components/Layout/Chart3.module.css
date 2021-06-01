@@ -1,0 +1,76 @@
+.ip{
+  
+height: 414.1542663574219px;
+width: 1197px;
+left: 121.64599609375px;
+top: 279px;
+border-radius: 5px;
+
+}
+.box{
+    position: absolute;
+
+    left:870.5px;
+    top: 36.88px;
+    bottom: 83.5px;
+    right: 62.5px;
+    
+}
+.h{
+    font-family: Segoe UI;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+}
+.icon{
+    height: 84px;
+width: 44px;
+
+}
+.container{
+    height: 84px;
+width: 171px;
+left: 1007.546142578125px;
+top: 68px;
+border-radius: 0px;
+
+}
+.text{
+    height: 24px;
+width: 96px;
+left: 1082.546142578125px;
+top: 428.73046875px;
+border-radius: nullpx;
+
+}
+.t{
+    height: 20px;
+width: 93px;
+left: 1178.546142578125px;
+top: 645.154296875px;
+border-radius: nullpx;
+width: 93px;
+height: 20px;
+left: 1178.55px;
+top: 645.15px;
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #2B73DE;
+
+}
+
+

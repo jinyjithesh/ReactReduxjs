@@ -1,0 +1,12 @@
+.container{
+    position: absolute;
+    width: 1197px;
+    height: 414.15px;
+    left: 121.65px;
+    top: 279px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 9px 0px 34px -23px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    align-items: center;
+    }

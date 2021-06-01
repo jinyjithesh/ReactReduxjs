@@ -1,0 +1,28 @@
+.box{
+    position: absolute;
+left: 66px;
+top: 38.66px;
+bottom: 59.5px;
+right: 873px;
+
+text-align: center;
+align-items: center;
+
+}
+/* .box1{
+    height: 177.15631103515625px;
+width: 177.15631103515625px;
+left: 226.98806762695312px;
+top: 370.15234375px;
+border-radius: 27px;
+
+
+} */
+.box1{
+    height: 295.9232177734375px;
+width: 258px;
+left: 187.64599609375px;
+top: 337.73046875px;
+
+}
+
